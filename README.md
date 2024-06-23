@@ -1,20 +1,3 @@
-<table border="0" width="10%">
-  <tr>
-    <td><img src="https://img1.github.io/tmp/1.jpg" height="80" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/2.jpg" height="80" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/3.jpg" height="80" width="82"></td>
-  </tr>
-  <tr>
-    <td><img src="https://img1.github.io/tmp/4.jpg" height="80" width="82"></td>
-    <td><img src="https://img.shields.io/github/stars/guofei9987/blind_watermark.svg?style=social"></td>
-    <td><img src="https://img1.github.io/tmp/6.jpg" height="82" width="82"></td>
-  </tr>
-   <tr>
-    <td><img src="https://img1.github.io/tmp/7.jpg" height="82" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/8.jpg" height="82" width="82"></td>
-    <td><img src="https://img1.github.io/tmp/9.jpg" height="82" width="82"></td>
-  </tr>
-</table>
 
 
 
@@ -186,9 +169,9 @@ The output `wm_extract` is an array of float. set a threshold such as 0.5.
 ```python
 WaterMark(..., processes=None)
 ```
-- `processes`: number of processes, can be integer. Default `None`, meaning use all processes.  
+- `processes` number of processes, can be integer. Default `None`, which means using all processes.  
 
 ## Related Project
 
-text_blind_watermark: [https://github.com/guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark)  
-Embed message into text.
+- text_blind_watermark (Embed message into text): [https://github.com/guofei9987/text_blind_watermark](https://github.com/guofei9987/text_blind_watermark)  
+- HideInfo（hide as image, hide as sounds, hide as text）：[https://github.com/guofei9987/HideInfo](https://github.com/guofei9987/HideInfo)
